@@ -66,9 +66,7 @@ const multiplicarFlecha = (a, b) => a * b;
 const saludarFlecha = (nombre) => `Hola, ${nombre}`;
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
-const calcularArea = radio => {
-    Math.PI * Math.pow(radio, 2);
-};
+const calcularArea = radio => Math.PI * radio * radio;
 
 // 5. Recursividad
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
